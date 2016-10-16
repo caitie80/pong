@@ -35,7 +35,17 @@
             </size>
             <angle id="rotation">0</angle>
           </attributes>
-          <aspects />
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="betterColisions">true</boolean>
+                <boolean id="canSleep">true</boolean>
+              </attributes>
+            </physics>
+          </aspects>
         </actor>
         <actor id="id403362" prototype="id550466">
           <attributes>
@@ -107,10 +117,15 @@
             <angle id="rotation">0</angle>
           </attributes>
           <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
             <physics>
               <attributes>
                 <real id="restitution">0</real>
                 <boolean id="fixedRotation">true</boolean>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
               </attributes>
             </physics>
           </aspects>

@@ -176,5 +176,6 @@
     </adreward>
     <table id="id947505" name="PurchaseTable">PurchaseTable</table>
     <integer id="id759075" name="Ball Y">0</integer>
+    <boolean id="id486851" name="player serves">true</boolean>
   </attributes>
 </game>
