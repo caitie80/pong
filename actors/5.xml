@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id550466" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id504818" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">edge</text>
+    <text id="name">win zone</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -19,7 +19,7 @@
       <real id="alpha">0</real>
     </color>
     <image id="image" />
-    <text id="tags">Collidable</text>
+    <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors />
@@ -56,7 +56,7 @@
       <attributes>
         <real id="density">1</real>
         <real id="friction">3</real>
-        <real id="restitution">0</real>
+        <real id="restitution">1</real>
         <boolean id="fixedRotation">true</boolean>
         <boolean id="movable">false</boolean>
         <enumeration id="collisionShape">0</enumeration>

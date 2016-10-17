@@ -10,6 +10,9 @@
     <actor id="id931397" />
     <actor id="id859876" />
     <actor id="id550466" />
+    <actor id="id504818" />
+    <actor id="id468305" />
+    <actor id="id956225" />
   </prototypes>
   <plugins />
   <scenes>
@@ -23,7 +26,7 @@
       <real id="width">568</real>
       <real id="height">320</real>
     </size>
-    <text id="actorTags" />
+    <text id="actorTags">All	Collidable</text>
     <boolean id="platformConnected">false</boolean>
     <enumeration id="playerType">1</enumeration>
     <playermap id="player1 Keymap">
@@ -177,5 +180,7 @@
     <table id="id947505" name="PurchaseTable">PurchaseTable</table>
     <integer id="id759075" name="Ball Y">0</integer>
     <boolean id="id486851" name="player serves">true</boolean>
+    <integer id="id873637" name="Player Score">0</integer>
+    <integer id="id533539" name="Computer Score">0</integer>
   </attributes>
 </game>
