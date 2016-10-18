@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id468305" PGFVersion="0.25" GSCVersion="1.25.5977">
+<actor id="id776053" PGFVersion="0.25" GSCVersion="1.25.5977">
   <attributes>
-    <text id="name">Computer Score</text>
+    <text id="name">Instructions</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">50</real>
-      <real id="height">50</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0</real>
-      <real id="green">0</real>
-      <real id="blue">0</real>
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">0</real>
     </color>
     <image id="image" />
@@ -23,15 +23,11 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id781461" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id855125" class="DisplayTextBehavior" enabled="true">
       <attributes>
-        <text id="name">Display Text: computer score</text>
+        <text id="name">Display Instructions</text>
         <text id="bundleName">DisplayText.behavior</text>
-        <text id="text">
-          <expression>
-            <reference keypath="game.attributes.id533539" />
-          </expression>
-        </text>
+        <text id="text">Press 'space' to spawn ball</text>
         <text id="font">Cambay</text>
         <real id="size">30</real>
         <index id="alignment">1</index>
@@ -42,12 +38,29 @@
           <real id="blue">1</real>
           <real id="alpha">1</real>
         </color>
-        <real id="offsetx">0.0</real>
-        <real id="offsety">0.0</real>
+        <real id="offsetx">0</real>
+        <real id="offsety">0</real>
         <index id="space">0</index>
         <index id="directionSpace">0</index>
         <angle id="direction">0</angle>
       </attributes>
+    </behavior>
+    <behavior id="id914060" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">5</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id936316" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
@@ -85,7 +98,7 @@
         <real id="friction">3</real>
         <real id="restitution">1</real>
         <boolean id="fixedRotation">false</boolean>
-        <boolean id="movable">false</boolean>
+        <boolean id="movable">true</boolean>
         <enumeration id="collisionShape">0</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>

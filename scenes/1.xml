@@ -125,11 +125,11 @@
                     </text>
                   </attributes>
                 </behavior>
-                <behavior id="id902537" class="ChangeAttributeAction" enabled="true">
+                <behavior id="id218833" class="ChangeAttributeAction" enabled="true">
                   <attributes>
                     <text id="name">Change Attribute</text>
                     <text id="bundleName">ChangeAttribute.behavior</text>
-                    <text id="targetAttribute">game.attributes.id873637</text>
+                    <text id="targetAttribute">game.attributes.id486851</text>
                     <text id="RHS">1</text>
                   </attributes>
                 </behavior>
@@ -222,6 +222,20 @@
             <size id="size">
               <real id="width">50</real>
               <real id="height">50</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id970468" prototype="id776053">
+          <attributes>
+            <point id="position">
+              <real id="x">285</real>
+              <real id="y">36</real>
+            </point>
+            <size id="size">
+              <real id="width">180</real>
+              <real id="height">57</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

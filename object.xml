@@ -13,10 +13,14 @@
     <actor id="id504818" />
     <actor id="id468305" />
     <actor id="id956225" />
+    <actor id="id776053" />
+    <actor id="id217495" />
+    <actor id="id596502" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id341431" />
+    <scene id="id633104" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -26,7 +30,7 @@
       <real id="width">568</real>
       <real id="height">320</real>
     </size>
-    <text id="actorTags">All	Collidable</text>
+    <text id="actorTags">All	Collidable	Text</text>
     <boolean id="platformConnected">false</boolean>
     <enumeration id="playerType">1</enumeration>
     <playermap id="player1 Keymap">

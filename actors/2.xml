@@ -83,7 +83,7 @@
         <text id="name">Timer: change attribute</text>
         <text id="bundleName">Timer.behavior</text>
         <index id="timerType">0</index>
-        <real id="interval">2</real>
+        <real id="interval">0.2</real>
         <boolean id="runToCompletion">false</boolean>
       </attributes>
       <behaviors>
@@ -97,48 +97,6 @@
                 <reference keypath="self.attributes.position.y" />
               </expression>
             </text>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-    <behavior id="id522909" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule: bounce</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id437686" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id527402</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id652718" class="MoveBehavior" enabled="true">
-          <attributes>
-            <text id="name">Move</text>
-            <text id="bundleName">Move.behavior</text>
-            <angle id="direction">
-              <expression>
-                <string xml:space="preserve">random(</string>
-                <string xml:space="preserve">13</string>
-                <string xml:space="preserve">5,</string>
-                <string xml:space="preserve"> 22</string>
-                <string xml:space="preserve">5)</string>
-              </expression>
-            </angle>
-            <index id="space">0</index>
-            <index id="moveType">1</index>
-            <real id="speed">300</real>
           </attributes>
         </behavior>
       </behaviors>

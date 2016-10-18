@@ -19,7 +19,7 @@
       <real id="alpha">0</real>
     </color>
     <image id="image" />
-    <text id="tags" />
+    <text id="tags">Text</text>
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
@@ -42,8 +42,8 @@
           <real id="blue">1</real>
           <real id="alpha">1</real>
         </color>
-        <real id="offsetx" />
-        <real id="offsety" />
+        <real id="offsetx">0.0</real>
+        <real id="offsety">0.0</real>
         <index id="space">0</index>
         <index id="directionSpace">0</index>
         <angle id="direction">0</angle>

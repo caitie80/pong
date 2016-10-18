@@ -46,7 +46,7 @@
               <predicate type="key">
                 <attributes>
                   <text id="mode">down</text>
-                  <text id="keyString">s</text>
+                  <text id="keyString">down</text>
                 </attributes>
               </predicate>
             </condition>
@@ -79,7 +79,7 @@
               <predicate type="key">
                 <attributes>
                   <text id="mode">down</text>
-                  <text id="keyString">w</text>
+                  <text id="keyString">up</text>
                 </attributes>
               </predicate>
             </condition>
@@ -158,7 +158,7 @@
     </behavior>
     <behavior id="id595355" class="ConstrainAttributeBehavior" enabled="true">
       <attributes>
-        <text id="name">Constrain Attribute</text>
+        <text id="name">Constrain Attribute: x position</text>
         <text id="bundleName">ConstrainAttribute.behavior</text>
         <text id="targetAttribute">self.attributes.position.x</text>
         <text id="RHS">500</text>
