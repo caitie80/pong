@@ -101,7 +101,7 @@
     </behavior>
     <behavior id="id903281" class="CollideBehavior" enabled="true">
       <attributes>
-        <text id="name">Collide</text>
+        <text id="name">Collide: bounce</text>
         <text id="bundleName">Collide.behavior</text>
         <text id="prototypeKey">id550466</text>
         <text id="actorTag">Collidable</text>

@@ -103,7 +103,7 @@
     </behavior>
     <behavior id="id425042" class="CollideBehavior" enabled="true">
       <attributes>
-        <text id="name">Collide</text>
+        <text id="name">Collide: bounce</text>
         <text id="bundleName">Collide.behavior</text>
         <text id="prototypeKey">id550466</text>
         <text id="actorTag">Collidable</text>
@@ -112,7 +112,7 @@
     </behavior>
     <behavior id="id365720" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">Rule: destroy</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">0</real>
       </attributes>
